@@ -2,11 +2,11 @@
 
 int main(void)
 {
-    int r;
-    scanf("%d", &r);
-    if (r >= 0)
+    double radius;
+    scanf("%lf", &radius);
+    if (radius > 0)
     {
-        printf("%.2f", r * r * 3.14);
+        printf("%.2f", radius * radius * 22.0);
     }
     else
     {
